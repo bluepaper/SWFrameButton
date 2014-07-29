@@ -79,7 +79,7 @@ static UIEdgeInsets const SWContentEdgeInsets = {5, 10, 5, 10};
                 self.backgroundColor = [UIColor colorWithRed:r green:g blue:b alpha:0.5];
                 self.layer.borderColor = [UIColor clearColor].CGColor;
             } else {
-                self.backgroundColor = self.tintColor;
+//                self.backgroundColor = self.tintColor;
             }
         } else {
             self.layer.borderColor = self.tintColor.CGColor;
